@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:21:1-51:12
+	package
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:22:5-41
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:24:5-30
+	android:versionCode
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:23:5-29
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:21:11-69
+uses-sdk
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:25:5-43
+	android:targetSdkVersion
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:25:15-40
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+		INJECTED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:26:5-45:19
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:26:51-81
+	android:icon
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:26:18-50
+activity#org.nstamato.bansheeremote.BansheeRemote
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:27:9-32:20
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:27:49-79
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:27:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:28:13-31:29
+action#android.intent.action.MAIN
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:30:27-74
+activity#org.nstamato.bansheeremote.Settings
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:33:3-34:14
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:33:38-68
+	android:configChanges
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:33:69-119
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:33:13-37
+activity#org.nstamato.bansheeremote.ArtistBrowse
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:35:3-36:14
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:35:42-65
+	android:configChanges
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:35:66-118
+	android:theme
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:35:119-177
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:35:13-41
+activity#org.nstamato.bansheeremote.AlbumBrowse
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:37:3-38:14
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:37:41-64
+	android:configChanges
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:37:65-117
+	android:theme
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:37:118-176
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:37:13-40
+activity#org.nstamato.bansheeremote.SongBrowse
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:39:3-40:14
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:39:40-63
+	android:configChanges
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:39:64-116
+	android:theme
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:39:117-175
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:39:13-39
+activity#org.nstamato.bansheeremote.NewServer
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:41:3-42:14
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:41:39-69
+	android:configChanges
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:41:70-120
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:41:13-38
+activity#org.nstamato.bansheeremote.main
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:43:3-44:14
+	android:label
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:43:34-64
+	android:launchMode
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:43:65-96
+	android:theme
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:43:97-155
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:43:13-33
+uses-permission#android.permission.INTERNET
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:47:2-64
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:47:19-61
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:50:1-87
+	android:name
+		ADDED from /home/kdeau/AndroidProjects/BansheeRemote/app/src/main/AndroidManifest.xml:50:18-68
